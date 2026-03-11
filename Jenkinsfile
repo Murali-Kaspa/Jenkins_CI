@@ -30,12 +30,12 @@ pipeline {
                 echo "Build Completed"
             }
         }
-
-        stage('Trigger Next Pipeline') {
-            steps {
-                build job: 'CD-Pipeline'
-            }
-        }
-
+//
+       // stage('Trigger Next Pipeline') {
+         //   steps {
+           //     build job: 'CD-Pipeline'
+            // }
+       // }
+//
     }
 }
