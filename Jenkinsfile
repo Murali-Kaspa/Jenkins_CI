@@ -5,7 +5,7 @@ pipeline {
 
         stage('Cleaning WorkSpace') {
             steps {
-                echo 'Hello World'
+                echo 'Hello Worrld'
             }
         }
 
