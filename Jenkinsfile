@@ -31,5 +31,11 @@ pipeline {
             }
         }
 
+        stage('Trigger Next Pipeline') {
+            steps {
+                build job: 'CD-Pipeline'
+            }
+        }
+
     }
 }
